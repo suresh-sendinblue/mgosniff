@@ -10,6 +10,9 @@ Different from [mongosniff](https://docs.mongodb.org/manual/reference/program/mo
 
 ```
 go get github.com/ma6174/mgosniff
+go mod init mgosniff
+go mod tidy
+go build
 ```
 
 ## Example
